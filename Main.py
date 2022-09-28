@@ -9,7 +9,7 @@ def selectionSort(array,size) ->List[int]:
     x = array[i]
     array[minim] = array[i]
     array[i] = x
-  return x
+  return array
 
 
 input_data = input()
